@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "countryName": "India",
+      "capital": "New Delhi",
+      "population": 1417173173,
+      "interestingFacts": "India is the world's largest democracy and has a diverse culture with 22 officially recognized languages."
+    },
+    {
+      "id": 2,
+      "countryName": "Japan",
+      "capital": "Tokyo",
+      "population": 125845010,
+      "interestingFacts": "Japan is known as the Land of the Rising Sun and is famous for its cherry blossoms and advanced technology."
+    },
+    {
+      "id": 3,
+      "countryName": "Brazil",
+      "capital": "Brasília",
+      "population": 216341000,
+      "interestingFacts": "Brazil is home to the Amazon Rainforest and is the largest coffee producer in the world."
+    },
+    {
+      "id": 4,
+      "countryName": "Australia",
+      "capital": "Canberra",
+      "population": 26000000,
+      "interestingFacts": "Australia is the only country that is also a continent, known for its unique wildlife like kangaroos and koalas."
+    },
+    {
+      "id": 5,
+      "countryName": "Canada",
+      "capital": "Ottawa",
+      "population": 40000000,
+      "interestingFacts": "Canada has the longest coastline of any country in the world and is known for its maple syrup."
+    },
+    {
+      "id": 6,
+      "countryName": "Germany",
+      "capital": "Berlin",
+      "population": 83800000,
+      "interestingFacts": "Germany is known for its engineering prowess and is home to the famous Oktoberfest and over 1,500 types of sausages."
+    }
+  ]
