@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 function Country({ country }) {
   const { name, flags, region, population, capital } = country;
   return (
-    <li className='text-white w-[290px] bg-slate-400 bg-opacity-20 p-5 m-5 border flex flex-col gap-2 align-middle justify-center'>
+    <li className='text-white w-[290px] bg-slate-400 bg-opacity-20 p-5 border flex flex-col gap-2 align-middle justify-center m-auto'>
       <div className='gap-4'>
         <div className='h-[120px] w-[200px] m-auto align-middle justify-center flex '>
-          <img className='w-full ' src={flags.svg} alt={country.name} />
+          <img className='w-full mt-2 ' src={flags.svg} alt={country.name} />
         </div>
         <div className='p-4 mt-2'>
           <h2 className='text-xl font-bold'>{name.common.length > 20 ? country.name.common.slice(0, 10)+'...' : country.name.common}</h2>

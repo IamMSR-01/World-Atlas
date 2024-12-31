@@ -4,20 +4,20 @@ import homeCountirs from '../api/homeCountry.json'
 function Home() {
   return (
     <div className=''>
-      <div className='2xl:flex xl:flex lg:flex md:flex align-middle justify-center w-[75%] mx-auto mt-10'>
-        <div className='w-[50%] lg:w-[50%] sm:w-[100%] text-white mt-10 p-10'>
-          <h1 className='font-bold text-4xl'>Explore the World, one <br /> country at a time !</h1>
-          <p className='text-xl mt-8'>Discover the history, culture, and beauty of <br />every nation. Sort, search, and filter <br />through countries to find the <br />details you need.</p>
-          <NavLink to="./about"><button className='bg-green-500 p-2 rounded-lg mt-10 font-semibold text-lg gap-5 flex'>Start Exploring</button>
+      <div className='2xl:flex xl:flex align-middle justify-center w-[95%] mx-auto mt-10 xl:mt-20'>
+        <div className='w-[100%] sm:w-[100%] lg:w-[90%] m-auto text-white mt-6 p-4 lg:mx-14 xl:mx-0 xl:w-[100%] xl:p-0'>
+          <h1 className='font-bold text-3xl sm:text-4xl md:text-5xl sm:mx-5 md:mx-9'>Explore the World, one <br /> country at a time !</h1>
+          <p className='text-medium mt-4 sm:text-lg md:text-xl sm:mx-5 md:mx-9 xl:mt-6'>Discover the history, culture, and beauty of <br />every nation. Sort, search, and filter <br />through countries to find the <br />details you need.</p>
+          <NavLink to="./about"><button className='bg-green-500 p-2 rounded-lg mt-10 font-semibold text-lg gap-5 flex sm:mx-5 md:mx-9 xl:mt-8'>Start Exploring</button>
           </NavLink>
         </div>
-        <div className='w-[600px] h-[500px] object-fill p-10'>
-          <img className='w-[100%] h-[100%] rounded-3xl' src="https://images.pexels.com/photos/753339/pexels-photo-753339.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+        <div className='w-[100%] object-fill p-4'>
+          <img className='w-[100%] md:w-[90%] lg:w-[80%] xl:w-[100%] m-auto h-[400px] rounded-3xl' src="https://images.pexels.com/photos/753339/pexels-photo-753339.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
         </div>
       </div>
-      <h1 className='text-green-500 mt-9 font-bold text-5xl flex justify-center align-middle'>Here are the interesting facts </h1>
-      <h1 className='text-green-500 mt-3 font-bold text-5xl flex justify-center align-middle'>we're proud of ! </h1>
-      <div className='w-[80%] m-auto flex align-middle justify-center mt-16 flex-wrap shadow-2xl'>
+      <h1 className='text-green-500 mt-7 font-bold text-2xl flex justify-center align-middle sm:text-3xl md:text-4xl md:mt-10 xl:mt-20 lg:text-5xl'>Here are the interesting facts </h1>
+      <h1 className='text-green-500 mt-1 font-bold text-2xl flex justify-center align-middle sm:text-3xl md:text-4xl xl:text-5xl'>we're proud of ! </h1>
+      <div className='w-[80%] md:w-[90%] m-auto flex align-middle justify-center mt-6 flex-wrap shadow-2xl'>
         {
           homeCountirs.map((country) => {
             const { id, countryName, capital, population, interestingFacts } = country

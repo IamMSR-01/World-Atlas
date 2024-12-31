@@ -48,7 +48,7 @@ function Country() {
         setCountries={setCountries}
         />
       </div>
-     <ul className='w-[80%] grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 m-auto mt-20 align-middle justify-center'>
+     <ul className='w-[85%] grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 m-auto mt-10 md:mt-20 align-middle justify-center'>
         {
           filterCountries.map((curCountry, index) => {
             return <CountryCard country={curCountry} key={index} />

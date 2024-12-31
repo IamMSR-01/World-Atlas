@@ -21,7 +21,7 @@ function SearchFilter({ search, setSearch, filteredCountries,  setFilteredCountr
     }
 
   return (
-    <section className='md:flex justify-between w-[80%] m-auto mt-20'>
+    <section className='md:flex align-middle justify-between w-[80%] m-auto mt-10 md:mt-20'>
         <div>
             <input   
             className="w-[250px] bg-slate-800 bg-opacity-50 m-auto p-2 text-white rounded-md pl-4 border placeholder:text-white" 
