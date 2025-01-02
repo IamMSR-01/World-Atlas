@@ -5,7 +5,7 @@ function Header() {
 
   return (
     <div className='w-full h-16 bg-gray-800 text-white'>
-        <nav className="flex justify-between items-center h-full w-full m-auto xl:w-[100%] xl:mx-4">
+        <nav className="flex justify-between items-center h-full w-full m-auto xl:w-[100%]">
             <div className='text-green-500 font-bold text-medium px-2 sm:px-10 md:mx-7 sm:p-4 sm:text-3xl sm:font-extrabold lg:text-4xl'>
                 <NavLink to='/'>WorldAtlas</NavLink>
             </div>
